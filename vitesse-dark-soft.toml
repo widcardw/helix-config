@@ -1,0 +1,99 @@
+# Author : Sebastian Zivota <loewenheim@mailbox.org>
+"comment" = { fg = "comment" }
+"constant" = { fg = "constant" }
+"constant.character.escape" = { fg = "bracket" }
+"function" = { fg = "entity" }
+"keyword" = { fg = "builtin" }
+"operator" = { fg = "bracket" }
+"punctuation" = { fg = "bracket" }
+"string" = { fg = "string" }
+"string.regexp" = { fg = "regexp" }
+"tag" = { fg = "tag" }
+"type" = { fg = "type" }
+"type.enum.variant" = { fg = "foreground", modifiers = ["italic"] }
+"variable" = { fg = "variable" }
+"variable.builtin" = { fg = "builtin" }
+"variable.parameter" = { fg ="#DBD7CAEE" }
+
+"diff.plus" = { fg = "#85E89D" }
+"diff.delta" = { fg = "#FFAB70" }
+"diff.minus" = { fg = "#FDAEB7" }
+
+# "ui.background" = { fg = "foreground", bg = "background" }
+"ui.cursor" =  { fg = "foreground", bg = "cursor_highlight" }
+"ui.cursor.match" = { fg = "entity", modifiers = ["underlined"] }
+"ui.cursor.primary" = { fg = "foreground", bg = "primary_highlight" }
+"ui.cursorline.primary" = { bg = "background_dark" }
+"ui.help" = { fg = "foreground", bg = "background_dark" }
+"ui.linenr" = { fg = "comment" }
+"ui.linenr.selected" = { fg = "foreground" }
+"ui.menu" = { fg = "foreground", bg = "background_dark" }
+"ui.menu.selected" = { fg = "number", bg = "background_dark" }
+"ui.popup" = { fg = "foreground", bg = "background_dark" }
+"ui.selection" = { bg = "secondary_highlight" }
+"ui.selection.primary" = { bg = "secondary_highlight" }
+"ui.statusline" = { fg = "foreground", bg = "background_dark" }
+"ui.statusline.inactive" = { fg = "comment", bg = "background_dark" }
+"ui.statusline.normal" = { fg = "background_dark", bg = "info_token" }
+"ui.statusline.insert" = { fg = "background_dark", bg = "entity" }
+"ui.statusline.select" = { fg = "background_dark", bg = "debug_token" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "number" }
+"ui.window" = { fg = "foreground" }
+"ui.virtual.whitespace" = { fg = "comment" }
+"ui.virtual.ruler" = { bg = "background_dark" }
+
+"error" = { fg = "error_token" } # { underline = { color = "error_token", style = "line"} } #
+"warning" = { fg = "warn_token" } # { underline = { color = "warn_token", style = "line"} } #
+
+"diagnostic"= { modifiers = ["underlined"] }
+"diagnostic.info"= { fg = "info_token", modifiers = ["underlined"] }
+"diagnostic.warning" = { fg = "warn_token", modifiers = ["underlined"] }
+"diagnostic.error" = { fg = "error_token", modifiers = ["underlined"] }
+
+"markup.heading" = { fg = "#4D9375", modifiers = ["bold"] }
+"markup.list" = "number"
+"markup.bold" = { fg = "#DBD7CAEE", modifiers = ["bold"] }
+"markup.italic" = { fg = "#DBD7CAEE", modifiers = ["italic"] }
+"markup.link.url" = "number"
+"markup.link.text" = "escape"
+"markup.quote" = { fg = "#5DA994", modifiers = ["italic"] }
+"markup.raw" = { fg = "foreground" }
+
+[palette]
+background = "#222222"
+background_dark = "#333536"
+bracket = "#666666"
+comment = "#758575DD"
+constant = "#C99076"
+entity = "#80A665"  # function
+tag = "#4D9375"  # keyword jsdoc
+builtin = "#CB7676" # undefined null type operator unit
+string = "#C98A7D"  # character
+punctuation = "#C98A7DAA"
+support = "#B8A965"  # property attr.name
+variable = "#BD976A"  # entity.other.attribute-name identifier
+type = "#5DA9A7"
+namespace = "#DB889A"
+broken = "#FDAEB7" # it deprecated illegal unimplemented error
+regexp = "#C4704F"
+escape = "#E6CC77"  # string.regexp contant.character.escape
+number = "#4C9A91"
+boolean = "#4D9375"  # module-reference
+info_token = "#6796E6"
+warn_token = "#CD9731"
+error_token = "#F44747"
+debug_token = "#B267E6"
+
+primary_highlight = "#606163"
+cursor_highlight = "#4d4f51"
+secondary_highlight = "#3d3f41"
+foreground = "#f8f8f2"
+
+# red = "#ff5555"
+# orange = "#ffb86c"
+# yellow = "#f1fa8c"
+# green = "#50fa7b"
+# purple = "#bd93f9"
+# cyan = "#8be9fd"
+# pink = "#ff79c6"
