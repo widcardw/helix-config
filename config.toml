@@ -1,0 +1,31 @@
+theme = "vitesse-dark-soft"
+
+[editor]
+line-number = "relative"
+mouse = true
+true-color = true
+# bufferline = "always"
+color-modes = true
+
+# or control whether each character is shown:
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+
+# control the grapheme used to represent the whitespace
+[editor.whitespace.characters]
+space = "·"
+tab = "→"
+newline = "⏎"
+
+[keys.insert]
+C-f = "move_char_right"
+C-b = "move_char_left"
+C-p = "move_line_up"
+C-n = "move_line_down"
+C-a = "goto_line_start"
+C-e = "goto_line_end"
+C-z = "hover"
+C-c = "toggle_comments"
+

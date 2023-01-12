@@ -1,9 +1,12 @@
-# Author : Sebastian Zivota <loewenheim@mailbox.org>
+# Helix theme vitesse
 "comment" = { fg = "comment" }
 "constant" = { fg = "constant" }
 "constant.character.escape" = { fg = "bracket" }
 "function" = { fg = "entity" }
+"constructor" = { fg = "constructor" }
 "keyword" = { fg = "builtin" }
+"label" = { fg = "support" }
+"namespace" = { fg = "support" }
 "operator" = { fg = "bracket" }
 "punctuation" = { fg = "bracket" }
 "string" = { fg = "string" }
@@ -21,7 +24,7 @@
 
 # "ui.background" = { fg = "foreground", bg = "background" }
 "ui.cursor" =  { fg = "foreground", bg = "cursor_highlight" }
-"ui.cursor.match" = { fg = "entity", modifiers = ["underlined"] }
+"ui.cursor.match" = { fg = "foreground", modifiers = ["underlined"] }
 "ui.cursor.primary" = { fg = "foreground", bg = "primary_highlight" }
 "ui.cursorline.primary" = { bg = "background_dark" }
 "ui.help" = { fg = "foreground", bg = "background_dark" }
@@ -36,7 +39,7 @@
 "ui.statusline.inactive" = { fg = "comment", bg = "background_dark" }
 "ui.statusline.normal" = { fg = "background_dark", bg = "info_token" }
 "ui.statusline.insert" = { fg = "background_dark", bg = "entity" }
-"ui.statusline.select" = { fg = "background_dark", bg = "debug_token" }
+"ui.statusline.select" = { fg = "background_dark", bg = "regexp" }
 "ui.text" = { fg = "foreground" }
 "ui.text.focus" = { fg = "number" }
 "ui.window" = { fg = "foreground" }
@@ -80,6 +83,7 @@ regexp = "#C4704F"
 escape = "#E6CC77"  # string.regexp contant.character.escape
 number = "#4C9A91"
 boolean = "#4D9375"  # module-reference
+constructor = "#6893BF"
 info_token = "#6796E6"
 warn_token = "#CD9731"
 error_token = "#F44747"
@@ -90,10 +94,3 @@ cursor_highlight = "#4d4f51"
 secondary_highlight = "#3d3f41"
 foreground = "#f8f8f2"
 
-# red = "#ff5555"
-# orange = "#ffb86c"
-# yellow = "#f1fa8c"
-# green = "#50fa7b"
-# purple = "#bd93f9"
-# cyan = "#8be9fd"
-# pink = "#ff79c6"
