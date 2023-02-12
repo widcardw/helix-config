@@ -16,7 +16,7 @@
 "type.enum.variant" = { fg = "foreground", modifiers = ["italic"] }
 "variable" = { fg = "variable" }
 "variable.builtin" = { fg = "builtin" }
-"variable.parameter" = { fg ="#DBD7CAEE" }
+"variable.parameter" = { fg ="#DBD7CA" }
 
 "diff.plus" = { fg = "#85E89D" }
 "diff.delta" = { fg = "#FFAB70" }

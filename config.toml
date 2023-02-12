@@ -28,4 +28,4 @@ C-a = "goto_line_start"
 C-e = ["goto_line_end", "move_char_right"]
 C-z = "hover"
 C-c = "toggle_comments"
-
+C-d = "delete_char_forward"

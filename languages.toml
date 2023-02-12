@@ -53,6 +53,7 @@ source = { git = "https://github.com/tree-sitter/tree-sitter-typescript", rev = 
 [[language]]
 name = "rust"
 indent = { tab-width = 2, unit = "  " }
+file-types = ["rs"]
 
 [language.config]
 checkOnSave = { command = "clippy" }
