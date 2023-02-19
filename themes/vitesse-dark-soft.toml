@@ -1,22 +1,47 @@
-# Helix theme vitesse
-"comment" = { fg = "comment" }
-"constant" = { fg = "constant" }
-"constant.character.escape" = { fg = "bracket" }
-"function" = { fg = "entity" }
+# # Helix theme vitesse
+"attribute" = { fg = "support" }
+"type" = { fg = "type" }
+"type.builtin" = { fg = "type" }
 "constructor" = { fg = "constructor" }
-"keyword" = { fg = "builtin" }
-"label" = { fg = "support" }
-"namespace" = { fg = "support" }
-"operator" = { fg = "bracket" }
-"punctuation" = { fg = "bracket" }
+"constant" = { fg = "constant" }
+"constant.builtin.boolean" = { fg = "tag" }
+"constant.character.escape" = { fg = "string" }
+"constant.numberic.int" = { fg = "number" }
+"constant.numberic.float" = { fg = "number" }
 "string" = { fg = "string" }
 "string.regexp" = { fg = "regexp" }
-"tag" = { fg = "tag" }
-"type" = { fg = "type" }
-"type.enum.variant" = { fg = "foreground", modifiers = ["italic"] }
+"string.special.path" = { fg = "info_token" }
+"string.special.url" = { fg = "info_token" }
+"comment" = { fg = "comment" }
 "variable" = { fg = "variable" }
 "variable.builtin" = { fg = "builtin" }
-"variable.parameter" = { fg ="#DBD7CA" }
+"variable.other" = { fg = "variable" }
+"punctuation" = { fg = "bracket" }
+"punctuation.delimiter" = { fg = "bracket" }
+"punctuation.bracket" = { fg = "bracket" }
+"punctuation.special" = { fg = "bracket" }
+"keyword" = { fg = "builtin" }
+"keyword.control" = { fg = "tag" }
+"keyword.operator" = { fg = "builtin" }
+"keyword.directive" = { fg = "bracket" }
+"keyword.function" = { fg = "builtin" }
+"keyword.storage.type" = { fg = "builtin" }
+"keyword.storage.modifier" = { fg = "namespace" }
+"operator" = { fg = "builtin" }
+"function" = { fg = "entity" }
+"function.builtin" = { fg = "constructor" }
+"function.method" = { fg = "entity" }
+"function.macro" = { fg = " escape" }
+"function.special" = { fg = " escape" }
+"tag" = { fg = "tag" }
+"namespace" = { fg = "namespace" }
+"markup.heading" = { fg = "tag", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "bracket", modifiers = ["bold"] }
+"markup.list" = { fg = "constant" }
+"markup.bold" = { fg = "foreground", modifiers = ["bold"] }
+"markup.italic" = { fg = "foreground", modifiers = ["italic"] }
+"markup.link" = { fg = "info_token" }
+"markup.quote" = { fg = "support" }
 
 "diff.plus" = { fg = "#85E89D" }
 "diff.delta" = { fg = "#FFAB70" }
@@ -53,15 +78,6 @@
 "diagnostic.info"= { fg = "info_token", modifiers = ["underlined"] }
 "diagnostic.warning" = { fg = "warn_token", modifiers = ["underlined"] }
 "diagnostic.error" = { fg = "error_token", modifiers = ["underlined"] }
-
-"markup.heading" = { fg = "#4D9375", modifiers = ["bold"] }
-"markup.list" = "number"
-"markup.bold" = { fg = "#DBD7CAEE", modifiers = ["bold"] }
-"markup.italic" = { fg = "#DBD7CAEE", modifiers = ["italic"] }
-"markup.link.url" = "number"
-"markup.link.text" = "escape"
-"markup.quote" = { fg = "#5DA994", modifiers = ["italic"] }
-"markup.raw" = { fg = "foreground" }
 
 [palette]
 background = "#222222"

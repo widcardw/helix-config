@@ -19,6 +19,11 @@ space = "·"
 tab = "→"
 newline = "⏎"
 
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
 [keys.insert]
 C-f = "move_char_right"
 C-b = "move_char_left"
@@ -29,3 +34,10 @@ C-e = ["goto_line_end", "move_char_right"]
 C-z = "hover"
 C-c = "toggle_comments"
 C-d = "delete_char_forward"
+
+[editor.file-picker]
+hidden = true
+parents = true
+ignore = true
+git-ignore = true
+
