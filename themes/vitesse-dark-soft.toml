@@ -58,7 +58,7 @@
 "ui.menu" = { fg = "foreground", bg = "background_dark" }
 "ui.menu.selected" = { fg = "number", bg = "background_dark" }
 "ui.popup" = { fg = "foreground", bg = "background_dark" }
-"ui.selection" = { bg = "secondary_highlight" }
+"ui.selection" = { bg = "secondary_highlight", modifiers = ["dim"] }
 "ui.selection.primary" = { bg = "secondary_highlight" }
 "ui.statusline" = { fg = "foreground", bg = "background_dark" }
 "ui.statusline.inactive" = { fg = "comment", bg = "background_dark" }
