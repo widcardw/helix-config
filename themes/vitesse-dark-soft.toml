@@ -58,8 +58,8 @@
 "ui.menu" = { fg = "foreground", bg = "background_dark" }
 "ui.menu.selected" = { fg = "number", bg = "background_dark" }
 "ui.popup" = { fg = "foreground", bg = "background_dark" }
-"ui.selection" = { bg = "secondary_highlight", modifiers = ["dim"] }
-"ui.selection.primary" = { bg = "secondary_highlight" }
+"ui.selection" = { bg = "secondary_highlight" }
+"ui.selection.primary" = { bg = "cursor_highlight" }
 "ui.statusline" = { fg = "foreground", bg = "background_dark" }
 "ui.statusline.inactive" = { fg = "comment", bg = "background_dark" }
 "ui.statusline.normal" = { fg = "background_dark", bg = "info_token" }
@@ -105,7 +105,7 @@ warn_token = "#CD9731"
 error_token = "#F44747"
 debug_token = "#B267E6"
 
-primary_highlight = "#606163"
+primary_highlight = "#707173"
 cursor_highlight = "#4d4f51"
 secondary_highlight = "#3d3f41"
 foreground = "#f8f8f2"

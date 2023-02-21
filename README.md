@@ -18,7 +18,7 @@ Before you start to use this config, you should install the language servers glo
 #### JS/TS/JSX/TSX
 
 ```sh
-pnpm add -g typescript-language-server
+pnpm add -g typescript typescript-language-server
 ```
 
 Check if the language server is avaliable.
