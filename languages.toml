@@ -10,7 +10,7 @@ comment-token = "//"
 language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "javascript" }
 indent = { tab-width = 2, unit = "  " }
 auto-format = true
-formatter = { command = "eslint", args = ["--fix"] }
+# formatter = { command = "eslint", args = ["--stdin"] }
 
 [[language]]
 name = "jsx"
@@ -23,7 +23,7 @@ language-server = { command = "typescript-language-server", args = ["--stdio"], 
 indent = { tab-width = 2, unit = "  " }
 grammar = "javascript"
 auto-format = true
-formatter = { command = "eslint", args = ["--fix"] }
+# formatter = { command = "eslint", args = ["--stdin"] }
 
 [[language]]
 name = "typescript"
@@ -36,7 +36,7 @@ roots = []
 language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescript"}
 indent = { tab-width = 2, unit = "  " }
 auto-format = true
-formatter = { command = "eslint", args = ["--fix"] }
+# formatter = { command = "eslint", args = ["--stdin"] }
 
 [[grammar]]
 name = "typescript"
@@ -52,7 +52,7 @@ roots = []
 language-server = { command = "typescript-language-server", args = ["--stdio"], language-id = "typescriptreact" }
 indent = { tab-width = 2, unit = "  " }
 auto-format = true
-formatter = { command = "eslint", args = ["--fix"] }
+# formatter = { command = "eslint", args = ["--stdin"] }
 
 [[grammar]]
 name = "tsx"
@@ -66,6 +66,15 @@ file-types = ["rs"]
 [language.config]
 checkOnSave = { command = "clippy" }
 
-[[language]]
-name = "toml"
+# [[language]]
+# name = "toml"
+# injection-regex = "toml"
+# file-types = ["toml"]
+# roots = []
+# comment-token = "#"
+# language-server = { command = "taplo", args = ["lsp", "stdio"] }
+# indent = { tab-width = 2, unit = "  " }
 
+# [[grammar]]
+# name = "toml"
+# source = { git = "https://github.com/ikatyang/tree-sitter-toml", rev = "7cff70bbcbbc62001b465603ca1ea88edd668704" }
